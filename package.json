@@ -28,7 +28,7 @@
     "format:check": "prettier --check src/**/*.ts",
     "type-check": "tsc --noEmit",
     "validate": "npm run type-check && npm run lint && npm run test",
-    "prepack": "npm run validate && npm run build",
+    "prepack": "npm run build",
     "release": "npm run validate && npm run build && npm publish"
   },
   "type": "module",
