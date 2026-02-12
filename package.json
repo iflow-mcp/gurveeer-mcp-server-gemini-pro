@@ -1,10 +1,10 @@
 {
-  "name": "mcp-server-gemini",
+  "name": "@iflow-mcp/gurveeer-mcp-server-gemini-pro",
   "version": "1.0.0",
   "description": "A state-of-the-art Model Context Protocol (MCP) server that provides seamless integration with Google's Gemini AI models. This server enables Claude Desktop and other MCP-compatible clients to leverage the full power of Gemini's advanced AI capabilities.",
   "main": "dist/enhanced-stdio-server.js",
   "bin": {
-    "mcp-server-gemini": "./dist/enhanced-stdio-server.js"
+    "iflow-mcp-gurveeer-mcp-server-gemini-pro": "./dist/enhanced-stdio-server.js"
   },
   "engines": {
     "node": ">=16.0.0",

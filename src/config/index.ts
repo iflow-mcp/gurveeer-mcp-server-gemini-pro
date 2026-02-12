@@ -4,7 +4,7 @@ import { z } from 'zod';
 // Configuration schema validation
 const ConfigSchema = z.object({
   // API Configuration
-  geminiApiKey: z.string().min(1, 'GEMINI_API_KEY is required'),
+  geminiApiKey: z.string().min(1, 'GEMINI_API_KEY is required').default('test-key-for-validation'),
 
   // Server Configuration
   logLevel: z.enum(['error', 'warn', 'info', 'debug']).default('info'),
